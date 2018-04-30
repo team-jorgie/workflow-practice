@@ -1,7 +1,7 @@
 'use strict'
 const getFormFields = require('../../../lib/get-form-fields')
-const ui = require('./teamui')
-const api = require('./teamapi')
+const ui = require('./booksui')
+const api = require('./bookapi')
 
 const onGetBooks = (event) => {
   event.preventDefault()
